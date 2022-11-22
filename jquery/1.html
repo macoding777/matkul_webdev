@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>ini cuma saja</title>
+    </head>
+    <script src="./js/jquery.js"></script>
+    <script>
+        // hilangkan p ketika ditekan button
+        $(document).ready(function(){
+            $("#cuma").click(function(){
+                $("#tulisan").hide();
+            });
+        });
+    </script>
+    <body>
+        <p id="tulisan">ini siapa</p>
+
+
+        <button type="button" id="cuma">ini tekan saja</button>
+    </body>
+</html>
