@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>ini cuma saja</title>
+  </head>
+  <script src="./js/jquery.js"></script>
+  <script>
+    // hilangkan p ketika ditekan button
+    $(document).ready(function () {
+      // buat fadein dan out
+        $("#hide").click(function () {
+            $("p").hide();
+        });
+        $("#show").click(function () {
+            $("p").show();
+        });
+    });
+  </script>
+  <body>
+    <p>jika anda klik tombol , maka saya akan hilang</p>
+
+    <button id="hide">hilangkan p</button>
+    <button id="show">tampilkan p</button>
+  </body>
+</html>

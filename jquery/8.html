@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>ini cuma saja</title>
+  </head>
+  <script src="./js/jquery.js"></script>
+  <script>
+    // hilangkan p ketika ditekan button
+    $(document).ready(function () {
+      // buat fadein dan out
+        $("button").click(function () {
+            $("p").hide(1000);
+        });
+    });
+  </script>
+  <body>
+    <button>Hide</button>
+
+    <p>ini adalah paragraf kecil</p>
+    <p>ini adalah paragraf lain</p>
+  </body>
+</html>
