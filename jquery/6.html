@@ -6,15 +6,15 @@
     <script>
         // hilangkan p ketika ditekan button
         $(document).ready(function(){
-            $("button").click(function(){
-                $("p").hide();
+            $("#p1").hover(function(){
+                alert("kamu didalam p1");
+            },
+            function(){
+                alert("kamu diluar p1");
             });
         });
     </script>
     <body>
-        <p id="tulisan">ini siapa</p>
-
-
-        <button type="button" id="cuma">ini tekan saja</button>
+        <p id="p1">ini apa yahh</p>
     </body>
 </html>
