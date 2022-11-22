@@ -1,20 +1,22 @@
 <html>
-    <head>
-        <title>ini cuma saja</title>
-    </head>
-    <script src="./js/jquery.js"></script>
-    <script>
-        // hilangkan p ketika ditekan button
-        $(document).ready(function(){
-            $("#p1").hover(function(){
-                alert("kamu didalam p1");
-            },
-            function(){
-                alert("kamu diluar p1");
-            });
-        });
-    </script>
-    <body>
-        <p id="p1">ini apa yahh</p>
-    </body>
+  <head>
+    <title>ini cuma saja</title>
+  </head>
+  <script src="./js/jquery.js"></script>
+  <script>
+    // hilangkan p ketika ditekan button
+    $(document).ready(function () {
+      $("#p1").hover(
+        function () {
+          alert("kamu didalam p1");
+        },
+        function () {
+          alert("kamu diluar p1");
+        }
+      );
+    });
+  </script>
+  <body>
+    <p id="p1">ini apa yahh</p>
+  </body>
 </html>
